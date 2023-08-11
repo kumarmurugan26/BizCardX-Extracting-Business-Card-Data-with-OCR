@@ -9,7 +9,6 @@ BizCardX is a Python application developed using Streamlit that allows users to 
 - [Approach](#approach)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
 
 ## Technologies
 
@@ -65,12 +64,3 @@ streamlit run app.py
 3. Review the displayed information and click the "Save to Database" button to store the information and image in the database.
 4. Use the application's user interface to read, update, and delete information stored in the database.
 
-## Contributing
-
-Contributions are welcome! If you have any improvements or features to add, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch: `git checkout -b feature/your-feature-name`.
-3. Commit your changes: `git commit -am 'Add a new feature'`.
-4. Push to the branch: `git push origin feature/your-feature-name`.
-5. Submit a pull request.
