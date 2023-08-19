@@ -11,11 +11,11 @@ import re
 
 # SETTING PAGE CONFIGURATIONS
 icon = Image.open(r"C:\Users\a-z\Downloads\pngwing.com.png")
-st.set_page_config(page_title="BizCardX: Extracting Business Card Data with OCR | By TIRUMAL",
+st.set_page_config(page_title="BizCardX: Extracting Business Card Data with OCR | By KUMAR",
                    page_icon=icon,
                    layout="wide",
                    initial_sidebar_state="expanded",
-                   menu_items={'About': """# This OCR app is created by *TIRUMAL*!"""})
+                   menu_items={'About': """# This OCR app is created by *KUMAR*!"""})
 st.markdown("<h1 style='text-align: center; color: #7F00FF;'>BizCardX: Extracting Business Card Data with OCR</h1>",
             unsafe_allow_html=True)
 
@@ -38,7 +38,7 @@ with st.sidebar:
 # CONNECTING WITH MYSQL DATABASE
 mydb = sql.connect(host= "localhost",
                    user="root",
-                   password="tiru24",
+                   password="kumarmurugan",
                    database="business card"
                    )
 mycursor = mydb.cursor(buffered=True)
